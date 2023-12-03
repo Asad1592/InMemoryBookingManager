@@ -6,8 +6,11 @@ import org.junit.jupiter.api.Test;
 import java.util.Date;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
-
-class BookingRepositoryTest {
+/**
+ * BookingRepositoryTest contains test cases for the BookingRepository class.
+ * It verifies the functionality of in-memory booking storage and retrieval operations.
+ */
+public class BookingRepositoryTest {
 
     private BookingRepository repository;
 

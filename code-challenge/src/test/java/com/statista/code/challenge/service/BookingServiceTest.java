@@ -13,7 +13,10 @@ import java.util.Date;
 import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
-
+/**
+ * BookingServiceTest comprises unit tests for the BookingService class.
+ * It mocks the BookingRepository and tests the business logic of the service layer.
+ */
 class BookingServiceTest {
 
     @Mock

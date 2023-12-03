@@ -5,7 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-
+/**
+ * BookingRepository provides in-memory storage for booking entities.
+ * It supports operations such as save, findById, findAll, findByDepartment, existsById, and deleteById.
+ */
 @Repository
 public class BookingRepository {
     private final Map<String, Booking> bookings = new ConcurrentHashMap<>();

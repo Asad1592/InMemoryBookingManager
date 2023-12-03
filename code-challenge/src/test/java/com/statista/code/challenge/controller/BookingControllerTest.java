@@ -18,9 +18,12 @@ import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
+/**
+ * BookingControllerTest includes test cases for the BookingController class.
+ * It uses MockMvc to simulate HTTP requests and assert the responses for various endpoints.
+ */
 @ExtendWith(MockitoExtension.class)
-class BookingControllerTest {
+public class BookingControllerTest {
 
     @Mock
     private BookingService service;

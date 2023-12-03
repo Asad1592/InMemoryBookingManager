@@ -4,7 +4,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import java.util.Date;
-
+/**
+ * Booking represents the booking entity with fields like bookingId, description, price, currency, subscriptionStartDate, email, and department.
+ * It is used to store booking information within the application.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

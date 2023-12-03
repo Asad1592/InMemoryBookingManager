@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Set;
-
+/**
+ * The BookingController handles all HTTP requests related to booking management.
+ * It provides endpoints for creating, updating, retrieving bookings, and performing department-specific operations.
+ */
 @RestController
 @RequestMapping("/bookingservice")
 public class BookingController {
