@@ -83,27 +83,3 @@ Returns the sum of all bookings prices with the given currency.
 Returns the result of `doBusiness()` for the given booking corresponding department.
 
 **Input / Output Examples:**
-1. Create a New Booking (POST)
-curl -X POST "http://localhost:8080/bookingservice/bookings" -H "Content-Type: application/json" -d "{\"description\": \"Soft description!\", \"price\": 100.00, \"currency\": \"USD\", \"subscriptionStartDate\": \"2023-12-03T00:00:00.000Z\", \"email\": \"asad@gmail.com\", \"department\": \"Software\"}"
-
-2. Update an Existing Booking (PUT)
-Replace {bookingId} with the actual ID of the booking you want to update.
-
-3. Retrieve a Booking by ID (GET)
-Replace {bookingId} with the actual ID of the booking.
-curl http://localhost:8080/bookingservice/bookings/{bookingId}
-
-4. List All Bookings for a Specific Department (GET)
-Replace {department} with the name of the department.
-curl http://localhost:8080/bookingservice/bookings/department/{department}
-
-5. List All Used Currencies (GET)
-curl http://localhost:8080/bookingservice/bookings/currencies
-
-6. Get the Total Sum of Bookings for a Specific Currency (GET)
-Replace {currency} with the currency code (e.g., "USD").
-curl http://localhost:8080/bookingservice/sum/{currency}
-
-7. Execute doBusiness for a Booking (GET)
-Replace {bookingId} with the ID of the booking.
-curl http://localhost:8080/bookingservice/bookings/dobusiness/{bookingId}
